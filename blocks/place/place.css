@@ -1,0 +1,21 @@
+@import "./__title/place__title.css";
+@import "./__image/place__image.css";
+@import "./__text/place__text.css";
+@import "./__paragraph/place__paragraph.css";
+@import "./__website/place__website.css";
+@import "./__url-link/place__url-link.css";
+@import "./__url-heading/place__url-heading.css";
+
+
+
+.place{
+    display: grid;
+    grid-template-columns: 460px 460px;
+    grid-template-rows: auto auto;
+    column-gap: 40px;
+    row-gap: 48px;
+    width: 984px;
+    padding-bottom: 80px;
+    margin: 0;
+}
+

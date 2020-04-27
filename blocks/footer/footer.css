@@ -1,0 +1,30 @@
+@import "../footer/__link/footer__link.css";
+@import "../footer/__links/footer__links.css";
+@import "../footer/__copyright/footer__copyright.css";
+.footer{
+  display: grid;
+    grid-template-columns: 211px auto 168px;
+    padding: 0 48px 24px 48px;
+    color: white;
+    min-width: 1184px;
+
+    }
+    
+    @media screen and (max-width: 768px) {
+        .footer {
+          padding: 0 24px 24px 24px;
+        }
+      }
+      
+      @media screen and (max-width: 600px) {
+        .footer {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          padding: 0 16px;
+          box-sizing: border-box;
+        }
+      }
+    
+      
+    

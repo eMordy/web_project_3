@@ -1,0 +1,17 @@
+
+
+.place__url-link{
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 122%;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+   
+}
+.place__url-link:hover {
+    transition: 2s ease-out;
+    opacity: 50%;
+  }

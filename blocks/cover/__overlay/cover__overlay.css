@@ -1,0 +1,8 @@
+
+.cover__overlay{
+    width: 100%;
+
+}
+.cover__overlay:hover{
+    opacity: .3;
+}

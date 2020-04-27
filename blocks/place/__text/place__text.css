@@ -1,0 +1,25 @@
+
+.place__text{
+    width: 100%; 
+    color: white;
+    font-family: 'inter', sans-serif;
+}
+.place__text:last-of-type {
+    margin: 0;
+  }
+
+  @media screen and (max-width: 768px) {
+    .place__image {
+        width: 352px;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    .place__image {
+        width: 288px;
+    }
+  }	
+  @media screen and (max-width: 1024px) {
+    .place__image {
+        width: 456px;
+    }
+  }	

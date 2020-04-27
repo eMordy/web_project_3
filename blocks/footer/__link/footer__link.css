@@ -1,0 +1,18 @@
+
+.footer__link{
+    font-size: 16px;
+    line-height: 18px;
+font-weight: normal;
+text-decoration: none;
+padding-right: 18px;
+color: #FFFFFF;
+}
+
+@media screen and (max-width: 767px) {
+    .footer__link {
+      display: block;
+      font-size: 24px;
+      line-height: 100%;
+      padding-bottom: 32px;
+    }
+  }
