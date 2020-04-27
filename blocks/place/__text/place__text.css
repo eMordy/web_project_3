@@ -3,7 +3,8 @@
     width: 100%; 
     color: white;
     font-family: 'inter', sans-serif;
-}
+/* margin-top: 0;*/
+  }
 .place__text:last-of-type {
     margin: 0;
   }
