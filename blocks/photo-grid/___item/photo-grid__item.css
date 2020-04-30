@@ -1,14 +1,9 @@
-.photo-grid__item{ 
-width: 100%;
-    list-style: none;
-  display: block;
-}
-
 
 .photo-grid__item{ 
   display: inline-grid; 
   max-width: 100%; 
 } 
+
 @media screen and (max-width: 320px) { 
   .photo-grid__item { 
     width: 288px; 
