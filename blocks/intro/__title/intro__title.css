@@ -3,8 +3,7 @@
 	font-family: "inter", sans-serif;
 	font-size: 54px;
 	line-height: 58px;
-	width: 690px;
-    height: 116px;
+	max-width: 690px;
 
 	color: #FFFFFF;
 }

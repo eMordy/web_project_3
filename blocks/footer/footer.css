@@ -2,9 +2,26 @@
 @import "../footer/__links/footer__links.css";
 @import "../footer/__copyright/footer__copyright.css";
 
-
 .footer {
+  font-family: 'Inter', 'Arial', sans-serif;
+  display: flex;
   max-width: 1184px;
+  padding: 92px 48px 24px 48px;
+  margin: auto;
+  justify-content: space-between;
+}
+/*.footer {
+  font-family: 'Inter', 'Arial', sans-serif;
+  text-align: left;
+  display: grid;
+  grid-template-columns: calc(100vw * (211 / 1280)) auto 168px;
+  background-color: #2A2C2F;
+  box-sizing: border-box;
+  padding: 0 48px 24px 48px;  
+  align-items: start;
+}
+.footer {
+  max-width: 984px;
   display: flex;
   padding: 92px 48px 24px 48px;
   margin: auto;
@@ -18,8 +35,26 @@
 
 @media screen and (max-width: 600px) {
   .footer {
+   display: flex;
+    flex-direction: column;
+    padding: 0 16px;
+    box-sizing: border-box;
+  }
+}*/
+
+
+
+@media screen and (max-width: 768px) {
+  .footer {
+    padding: 0 24px 24px 24px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer {
     display: flex;
     flex-direction: column;
+    width: 100%;
     padding: 0 16px;
     box-sizing: border-box;
   }
