@@ -1,14 +1,11 @@
 
-
 .place__url-link{
 
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
+    font-family: 'Inter', Arial, sans-serif;
     font-size: 18px;
     line-height: 122%;
     text-decoration-line: underline;
-    color: #FFFFFF;
+    color: white;
    
 }
 .place__url-link:hover {

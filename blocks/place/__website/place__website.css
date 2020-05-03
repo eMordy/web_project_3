@@ -1,14 +1,26 @@
-.place__website {
-    text-align: left;
+
+  .place__website {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-self: end;
-    padding-bottom: 10px;
-  }
+    margin-bottom: 58px;
+}
 
-  @media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
     .place__website {
-      display: none;
-    } 
-  }
+        margin-bottom: 48px;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 767px) {
+    .place__website {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 600px) {
+    .place__website {
+        display: none;
+    }
+}

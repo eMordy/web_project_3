@@ -1,26 +1,19 @@
 
-.intro__text {
+  .intro__text {  
+    font-family: 'Inter', Arial, sans-serif;
+    max-width: 690px;
     font-size: 16px;
     line-height: 26px;
-    margin: 32px 0 32px 0;
-    width: 690px;
-    font-family: "inter", sans-serif;
-color: white;
-  }
+    color: white;
+}
+@media screen and (max-width: 768px) {
+    .intro__text {  
+        max-width: 720px;
+    }
+}
 
-  
-  
-  @media screen and (max-width: 1023px) {
+@media screen and (max-width: 374px) {
     .intro__text {
-      font-size: 16px;
-      line-height: 162%;
+        max-width: 288px;
     }
-  }
-  
-  @media screen and (max-width: 768px) {
-    .intro__text {
-      width: 720px;
-    }
-  }
-  
-  
+}

@@ -1,15 +1,26 @@
 
-.intro__list{
-width: 690px;
-height: 72px;
-margin-top:32px;
-margin-right: 442px;
-font-family: 'inter', sans-serif;
-font-size: 12px;
-line-height: 150%;
-font-style: normal;
-list-style-type: none;
-color: #FFFFFF;
-padding-left: 0;
-margin-bottom: 92px;
+.intro__list {
+    font-family: 'Inter', Arial, sans-serif;
+    max-width: 690px;
+    margin-top: 32px;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: white;
+    list-style: none;
+    padding-left: 0;
+
+
+}
+
+@media screen and (max-width: 768px) {
+    .intro__list {
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .intro__list {
+        max-width: 288px;
+    }
 }

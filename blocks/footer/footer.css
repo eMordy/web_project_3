@@ -12,18 +12,21 @@
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .footer {
-    padding: 0 24px 24px 24px;
+    width: 928px;
   }
 }
-
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .footer {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding: 0 16px;
-    box-sizing: border-box;
-  }
+    width: 720px;
+}
+}
+
+@media screen and (max-width: 650px) {
+  .footer {
+  
+  display: block;
+  width: 100%;
+  min-width: 168px;}
 }

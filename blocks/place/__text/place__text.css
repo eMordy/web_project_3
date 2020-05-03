@@ -1,26 +1,17 @@
 
-.place__text{
-    width: 100%; 
+  .place__text {
+    margin-top: 0;
     color: white;
-    font-family: 'inter', sans-serif;
-/* margin-top: 0;*/
-  }
-.place__text:last-of-type {
-    margin: 0;
-  }
+}
 
-  @media screen and (max-width: 768px) {
-    .place__image {
-        width: 352px;
+@media screen and (min-width: 567px) and (max-width: 767px) {
+    .place__text{
+        margin-top: 32px;
     }
-  }
-  @media screen and (max-width: 320px) {
-    .place__image {
-        width: 288px;
+} 
+
+@media screen and (min-width: 320px) and (max-width: 568px) {
+    .place__text {
+        margin-top: 32px;
     }
-  }	
-  @media screen and (max-width: 1024px) {
-    .place__image {
-        width: 456px;
-    }
-  }	
+}

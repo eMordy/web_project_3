@@ -1,29 +1,25 @@
-
+  
 .lead__caption {
-    font-size: 10px;
-    line-height: 104%;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-    align-self: start;
-    margin: 8px 0 0 148px;
+  font-size: 10px;
+  line-height: 140%;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
   color: white;
-  }
-  
+}
 
-  @media screen and (max-width: 1024px) {
-      .lead__caption{
-          margin-left: 28px;
-  
-      }
+@media screen and (max-width: 1024px) {
+  .lead__caption {
+    padding-left: 24px;
   }
-  @media screen and (max-width: 768px) {
-    .lead__caption {
-      margin-left: 24px;
-    }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__caption {
+    padding-left: 16px;
   }
-  
-  @media screen and (max-width: 320px) {
-    .lead__caption {
-      margin-left: 16px;
-    }
-  }
+}
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+  .lead__caption {
+      padding-left: 24px;
+ }
+}

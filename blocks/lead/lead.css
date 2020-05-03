@@ -3,13 +3,24 @@
 @import "../lead/__image/lead__image.css";
 @import "../lead/__caption/lead__caption.css";
 
-
-
-.lead{
+.lead {
+    max-width: 984px;
     display: flex;
-flex-direction: column;
-position: relative;
-box-sizing: border-box;
-width: 100%;
+    flex-direction: column;
+    margin: 58px auto 0;
+}
 
+
+@media screen and (max-width: 768px) {
+    .lead {
+        max-width: 768px;
+        margin: 50px auto 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .lead {
+        max-width: 320px;
+        margin: 50px auto 0;
+    }
 }
