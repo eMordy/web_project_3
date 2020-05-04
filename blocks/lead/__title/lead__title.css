@@ -8,17 +8,11 @@
   color: white;
 }
 
-
-@media screen and (max-width: 1024px) {
-  .lead__title {
-    margin-top: 50px;
-  }
-}
-
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 640px) {
   .lead__title {
     width: 288px;
     font-size: 40px;
     line-height: 110%;
+    margin-bottom: 16px;
   }
 }

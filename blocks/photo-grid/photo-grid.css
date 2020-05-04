@@ -2,9 +2,11 @@
 @import "../photo-grid/__item/photo-grid__item.css";
 
 
-.photo-grid{
+.photo-grid {
   padding: 92px 48px 0 48px;
 }
+
+
 
 @media screen and (max-width: 768px) {
   .photo-grid {
