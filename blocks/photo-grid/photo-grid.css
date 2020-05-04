@@ -1,6 +1,7 @@
 @import "../photo-grid/__list/photo-grid__list.css";
 @import "../photo-grid/__item/photo-grid__item.css";
 
+
 .photo-grid{
   padding: 92px 48px 0 48px;
 }

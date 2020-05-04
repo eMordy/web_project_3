@@ -2,24 +2,36 @@
 @import "../cover/__title/cover__title.css";
 @import "../cover/__subtitle/cover__subtitle.css";
 
+/*
 .cover {
-  max-width: 1184px;
+  margin: 0 auto 92px auto; 
+  max-width: 1184px; 
   width: 100%;
   height: 740px;
+  overflow: hidden;
   position: relative;
   align-self: center;
   text-align: center;
   box-sizing: border-box;
+}*/
+.cover{
   margin: 0 auto 92px auto; 
+  width: 1184px;
+  height: 740px;
+  position: relative;
+  align-self: center;
+  text-align: center;
 }
+
 .cover:hover {
   opacity: 0.3;
 }
 
+
 @media screen and (max-width: 1024px) {
   .cover {
     max-width: 100%;
-    height: 640px;
+    height: calc(100vw * (640 / 1024));
     margin-bottom: 88px;  
   }
 }
@@ -27,19 +39,7 @@
 @media screen  and (max-width: 320px) {
   .cover {
     width: 100%;
-    height:200px;
+    height: calc(100vw * (200 / 320px));
     margin-bottom: 64px;
   }
 }
-
-
-@media screen and (min-width: 1024px) and (max-width: 1280px)  {
-  .cover {
-      width: 1024px;
-      height: 640px;
-      margin-top: 88px;
-  }
-}
-
-
-

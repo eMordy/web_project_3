@@ -2,31 +2,40 @@
 @import "../footer/__links/footer__links.css";
 @import "../footer/__copyright/footer__copyright.css";
 
+
 .footer {
   font-family: 'Inter', 'Arial', sans-serif;
   display: flex;
   max-width: 1184px;
-  padding: 92px 48px 24px 48px;
+  /*padding: 92px 48px 24px 48px;*/
+  padding: 0 48px 24px 48px;  
   margin: auto;
   justify-content: space-between;
 }
 
-
 @media screen and (max-width: 1024px) {
   .footer {
-    width: 928px;
+      max-width: 928px;
   }
 }
+
 @media screen and (max-width: 768px) {
   .footer {
-    width: 720px;
-}
+      max-width: 720px;
+      padding: 0 24px 24px 24px;
+
+      /*padding: 88px auto 24px;*/
+  }
 }
 
 @media screen and (max-width: 650px) {
   .footer {
-  
-  display: block;
-  width: 100%;
-  min-width: 168px;}
+      max-width: 168px;
+      display: block;
+      /*padding-top: 64px;
+      padding-left: 16px;
+      */
+      padding: 0 16px;
+      margin-left: 0;
+  }
 }

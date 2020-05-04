@@ -1,18 +1,24 @@
 
-.footer__link{
-    font-size: 16px;
-    line-height: 18px;
-font-weight: normal;
-text-decoration: none;
-margin-right: 18px;
-color:white;
+.footer__link {
+    font-size: 18px;
+    line-height: 1;
+    font-weight: normal;
+    text-decoration: none;
+    padding-right: 24px;
+    color: white;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .footer__link {
-      display: block;
-      font-size: 24px;
-      line-height: 100%;
-      margin: 0 0 32px 0;  
-      }
-  }
+        font-size: 16px;
+        line-height: 1;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .footer__link {
+        font-size: 24px;
+        display: block;
+        padding-bottom: 32px;
+    }
+}
