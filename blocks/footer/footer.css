@@ -11,6 +11,8 @@
   padding: 0 48px 24px 48px;  
   margin: auto;
   justify-content: space-between;
+  
+
 }
 
 @media screen and (max-width: 1024px) {

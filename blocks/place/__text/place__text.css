@@ -1,17 +1,39 @@
 
   .place__text {
-    margin-top: 0;
+   
+        margin: 0 0 24px 0;
+
     color: white;
 }
 
+@media screen and (max-width: 768px) {
+    .place__text {
+       
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .place__text{
+      
+        margin: 32px 16px 24px;
+    }
+}
+/*
+@media screen and (max-width: 320px) {
+    .place__text {
+      width: 288px;
+    }
+  }*/
 @media screen and (min-width: 567px) and (max-width: 767px) {
     .place__text{
         margin-top: 32px;
     }
 } 
-
+/*
 @media screen and (min-width: 320px) and (max-width: 568px) {
     .place__text {
         margin-top: 32px;
+        
     }
 }
